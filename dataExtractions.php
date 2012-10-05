@@ -145,7 +145,7 @@ switch($_GET['Action']){
 
 	break;
 	
-	case '':
+	case 'Yelp':
 		$uri = $_GET['url'];
 		$url = $uri;
 		$html = file_get_html($uri);
